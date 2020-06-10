@@ -10,7 +10,7 @@ __all__ = ['InceptionResNetV2', 'inceptionresnetv2']
 pretrained_settings = {
     'inceptionresnetv2': {
         'imagenet': {
-            'url': 'https://drive.google.com/file/d/1fLAB-h5uLi93UUFRV3Os5cZAFwlLNUIg/view?usp=sharing',
+            'url': 'https://drive.google.com/file/d/1fLAB-h5uLi93UUFRV3Os5cZAFwlLNUIg/view',
             'input_space': 'RGB',
             'input_size': [3, 299, 299],
             'input_range': [0, 1],
@@ -19,7 +19,7 @@ pretrained_settings = {
             'num_classes': 1000
         },
         'imagenet+background': {
-            'url': 'https://drive.google.com/file/d/1fLAB-h5uLi93UUFRV3Os5cZAFwlLNUIg/view?usp=sharing',
+            'url': 'https://drive.google.com/file/d/1fLAB-h5uLi93UUFRV3Os5cZAFwlLNUIg/view',
             'input_space': 'RGB',
             'input_size': [3, 299, 299],
             'input_range': [0, 1],
